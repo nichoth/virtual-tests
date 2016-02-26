@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "watch": "watchify browser/main.js -o public/bundle.js -dv",
+    "dev": "npm run watch & ecstatic public"
+  },
+  "dependencies": {
+    "ecstatic": "^1.4.0",
+    "observ": "^0.2.0",
+    "observ-array": "^3.2.1",
+    "observ-struct": "^6.0.0",
+    "observify": "^1.1.2",
+    "vdom-loop": "0.0.0",
+    "virtual-form": "^1.1.0",
+    "virtual-form-validation": "https://github.com/yoshuawuyts/virtual-form-validation/tarball/master",
+    "virtual-hook": "^1.0.1",
+    "virtual-sidebar": "^1.0.1",
+    "virtual-widget": "^1.2.0",
+    "xtend": "^4.0.1"
+  }
+}
